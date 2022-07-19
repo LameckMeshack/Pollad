@@ -1,0 +1,7 @@
+.services-container {
+  width: 100%;
+  max-width: 1260px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
