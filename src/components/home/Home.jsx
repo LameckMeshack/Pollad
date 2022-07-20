@@ -1,7 +1,7 @@
 import "./home.css";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import { IoMdPlay } from "react-icons/io";
-import Services from "../Services/Services";
+import Offered from "../Offered/Offered";
 
 const Home = () => {
   return (
@@ -28,7 +28,7 @@ const Home = () => {
               <AiOutlineRight />
             </div>
           </div>
-          <Services />
+          <Offered />
         </div>
       </div>
     </>

@@ -1,0 +1,10 @@
+/* img background */
+.contact {
+  background-image: url("../../../public/Images/contact/background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
