@@ -1,0 +1,46 @@
+.about {
+  margin-top: 170px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.abt-container {
+  width: 100%;
+  max-width: 1260px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+.abt-container img {
+  width: 50%;
+  margin-right: 50px;
+}
+.abt-contents {
+  line-height: 2.5rem;
+}
+.line2 {
+  font-weight: 900;
+}
+.abt-contents h2 {
+  font-size: 1.8rem;
+}
+.top {
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.top h3 {
+  font-weight: lighter;
+}
+.p1 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.p2 {
+  font-size: 0.9rem;
+}
