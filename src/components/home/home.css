@@ -6,6 +6,12 @@
   border-bottom-left-radius: 500%;
   border-bottom-right-radius: 500%;
 }
+.section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .home-container {
   display: flex;
   flex-direction: row;
