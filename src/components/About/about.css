@@ -4,6 +4,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  background-image: url("../../../public/Images/about-bg.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .abt-container {
   width: 100%;
