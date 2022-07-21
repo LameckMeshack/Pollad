@@ -8,6 +8,7 @@ import Price from "../components/Price/Price";
 import Footer from "../components/Footer/Footer";
 import Partners from "../components/Partner/Partners";
 import Map from "../components/Map/Map";
+import GetINTouch from "../components/GetInTouch/GetINTouch";
 const HomePage = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const HomePage = () => {
       <Process />
       <Projects />
       <Price />
+      <GetINTouch />
       <Map />
       <Partners />
       <Footer />
