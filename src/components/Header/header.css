@@ -1,5 +1,5 @@
 .details {
-  background: blue;
+  background: linear-gradient(90deg, #07075a 0%, #4648b3 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;

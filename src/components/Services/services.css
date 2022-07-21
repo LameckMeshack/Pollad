@@ -58,11 +58,11 @@
   color: blue;
 }
 .btn-serv {
-  background: #fff;
+  background: linear-gradient(90deg, #07075a 0%, #4648b3 100%);
   border: 1px solid blue;
   border-radius: 10px;
   padding: 10px 20px;
-  color: blue;
+  color: #fff;
   font-size: 1rem;
   font-weight: bolder;
   cursor: pointer;

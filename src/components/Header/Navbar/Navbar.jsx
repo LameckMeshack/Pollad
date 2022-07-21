@@ -1,9 +1,22 @@
+import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import "./navbar.css";
 
 const Navbar = () => {
+  const [fix, setFix] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 30) {
+      setFix(true);
+    } else {
+      setFix(false);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
   return (
-    <div className="navbar">
+    <div className={fix ? "navbar sticky" : "navbar"}>
       <div className="nav">
         <a href="/" className="brand">
           <img src="/Images/bg.png" alt="pollad" width="150" />

@@ -20,16 +20,16 @@ const Contact = () => {
           <button className="btn-contact">Let's Talk</button>
         </div>
       </div>
-      <div className="stats">
-        <div className="first">
+      <div className="statistics">
+        <div>
           <h4>80k</h4>
           <p>Happy Clients</p>
         </div>
-        <div className="first">
+        <div>
           <h4>50+</h4>
           <p>Companies</p>
         </div>
-        <div className="first">
+        <div>
           <h4>230+</h4>
           <p>Projects Done</p>
         </div>

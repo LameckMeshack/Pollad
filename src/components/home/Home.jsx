@@ -9,7 +9,7 @@ const Home = () => {
       <div className="bg-image">
         <div className="section">
           <div className="home-container">
-            <div className="arrow left">
+            <div className="arrow ">
               <AiOutlineLeft />
             </div>
             <div className="home-content">
@@ -24,7 +24,7 @@ const Home = () => {
                 <IoMdPlay className="play" />
               </div>
             </div>
-            <div className="arrow right">
+            <div className="arrow ">
               <AiOutlineRight />
             </div>
           </div>
