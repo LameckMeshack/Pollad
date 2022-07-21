@@ -10,31 +10,33 @@ const GetINTouch = () => {
         <div className="touch-box">
           <p>LET'S TALK</p>
           <h3>Speak With Expert Engineers.</h3>
-          <div className="touch-item">
-            <div className="icon">
-              <FaHome />
+          <div className="touch-tem-cont">
+            <div className="touch-item">
+              <div className="icon">
+                <FaHome />
+              </div>
+              <div className="touch-text">
+                <h4>Email</h4>
+                <p>(+088)589-8745</p>
+              </div>
             </div>
-            <div className="touch-text">
-              <h4>Email</h4>
-              <p>(+088)589-8745</p>
+            <div className="touch-item">
+              <div className="icon">
+                <BsTelephoneFill />
+              </div>
+              <div className="touch-text">
+                <h4>Email</h4>
+                <p>(+088)589-8745</p>
+              </div>
             </div>
-          </div>
-          <div className="touch-item">
-            <div className="icon">
-              <BsTelephoneFill />
-            </div>
-            <div className="touch-text">
-              <h4>Email</h4>
-              <p>(+088)589-8745</p>
-            </div>
-          </div>
-          <div className="touch-item">
-            <div className="icon">
-              <GoLocation />
-            </div>
-            <div className="touch-text">
-              <h4>Lacation</h4>
-              <p> KCA Nairobi, Kenya</p>
+            <div className="touch-item">
+              <div className="icon">
+                <GoLocation />
+              </div>
+              <div className="touch-text">
+                <h4>Lacation</h4>
+                <p> KCA Nairobi, Kenya</p>
+              </div>
             </div>
           </div>
         </div>
