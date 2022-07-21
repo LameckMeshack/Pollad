@@ -7,6 +7,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .contact-container {
   display: flex;
@@ -51,4 +52,36 @@
   font-size: 2rem;
   border-radius: 50%;
   padding: 20px;
+}
+.stats {
+  position: absolute;
+  bottom: -50px;
+  right: 100px;
+  padding: 10px 20px;
+  background-image: url("https://i.pinimg.com/564x/e6/e6/14/e6e614f848dc2c13f6f068efd2a9eb5d.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.stats div {
+  line-height: 0.3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+}
+.stats h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.stats p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
