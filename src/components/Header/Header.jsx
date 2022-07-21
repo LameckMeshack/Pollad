@@ -5,6 +5,7 @@ import { FaPinterestP } from "react-icons/fa";
 import { CgFacebook } from "react-icons/cg";
 import { BsGeoAlt } from "react-icons/bs";
 import { BiTimeFive } from "react-icons/bi";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Header = () => {
   return (
@@ -38,6 +39,7 @@ const Header = () => {
             <BsTwitter className="icn" />
             <FaPinterestP className="icn" />
             <TbBrandInstagram className="icn" />
+            <IoLogoWhatsapp className="icn" />
           </div>
         </div>
       </div>

@@ -1,25 +1,17 @@
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Header/Navbar/Navbar";
-import Home from "./components/home/Home";
-import Price from "./components/Price/Price";
-import Process from "./components/Process/Process";
-import Projects from "./components/Projects/Projects";
-import Services from "./components/Services/Services";
-
+import HomePage from "./pages/HomePage";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Navbar />
-      <Home />
-      <About />
-      <Services />
-      <Contact />
-      <Process />
-      <Projects />
-      <Price />
+      <Router>
+        <Header />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
