@@ -1,0 +1,99 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+.pricing p {
+  font-size: 1rem;
+  font-weight: bolder;
+  /* color: #101869; */
+  line-height: 2.5rem;
+  margin: 0;
+}
+.pricing h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  line-height: 2.7rem;
+  margin: 0;
+}
+.pricing-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1260px;
+  top: 50%;
+}
+.pricing-item {
+  border: 1px solid #101869;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 15px;
+  padding: 40px;
+  border-radius: 10px;
+  position: relative;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+.ft-text {
+  display: flex;
+  font-size: medium;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 50px;
+  width: 300px;
+}
+.ft-text p {
+  font-size: medium;
+  font-weight: bolder;
+
+  line-height: 2.5rem;
+  margin: 0;
+}
+.barge {
+  position: absolute;
+  top: 5%;
+  left: 0;
+  padding-left: 20px;
+  border-bottom-right-radius: 35px;
+}
+.barge h3 {
+  font-size: 1rem;
+  font-weight: bolder;
+  line-height: 1.5rem;
+  margin: 0;
+  padding-right: 10px;
+}
+.btn-buy {
+  background: #101869;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+  position: absolute;
+  top: 96%;
+}
+.gold {
+  background: linear-gradient(90deg, #2733c1 0%, #190571 100%);
+  color: #fff;
+}
